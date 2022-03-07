@@ -1,0 +1,2 @@
+class ContainerException(Exception):
+    pass
