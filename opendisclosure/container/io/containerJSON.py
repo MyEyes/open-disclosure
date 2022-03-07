@@ -1,8 +1,6 @@
 import json
 import base64
 
-from itsdangerous import base64_decode
-
 from opendisclosure.container.containerEntry import ContainerEntry, ContainerEntryHashData
 from ... import Container, ContainerAuthorization, ContainerKeyPair, ContainerEntryType, ContainerEntry
 import pgpy
