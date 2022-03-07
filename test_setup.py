@@ -1,3 +1,8 @@
+# This file mainly exists as an example for how to use the library rather than the CLI tool
+# And as a quick way to test functionality
+# I'll probably remove it when I implement unit tests for the library
+# Also since I've deleted the pub and priv keys loaded here it won't currently work
+
 import opendisclosure as od
 import pgpy
 import opendisclosure.container.io.containerJSON as odjson

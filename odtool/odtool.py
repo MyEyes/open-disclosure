@@ -1,12 +1,9 @@
 #!/usr/bin/python3
-from random import choices
 import sys
 import os
 from os.path import exists
 from argparse import ArgumentParser
-from numpy import require
 import pgpy
-from rsa import verify
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(SCRIPT_DIR))

@@ -1,6 +1,7 @@
 from .containerException import ContainerException
 from pgpy import PGPMessage, PGPKey
 
+#NOT: consider renaming to ContainerAuthorizationTuple
 class ContainerKeyPair:
     def __init__(self, pubKey, encSharedKey = None, sharedKey=None) -> None:
         if type(pubKey) is PGPKey:
