@@ -34,11 +34,11 @@ class ContainerAuthorization:
         self.extraKeys.append(ContainerKeyPair(pubKey, sharedKey=sharedKey))
 
     def getKeyById(self,id):
-        if id < 0:
+        if id < 0 or id>len(self.extraKeys):
             raise ContainerException("Invalid key id")
         elif id == 0:
             return self.authorKey
-        elif id <= len(self.extraKeys):
+        else:
             return self.extraKeys[id-1]
 
     def getIdOfKey(self, key):

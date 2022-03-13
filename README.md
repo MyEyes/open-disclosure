@@ -36,6 +36,7 @@ Contains a description of the basic idea, more in depth theory behind the concep
 The reference implementation library "opendisclosure" depends on the following python modules
 * pgpy
 * cryptography
+* pytest
 
 odtool/odtool.py can be used to interact with containers.
 

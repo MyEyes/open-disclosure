@@ -18,7 +18,7 @@ class ContainerCreationInfo:
 
         self.nonce = urandom(12)
         self.meta = {
-            'version': "0.2",
+            'version': "0.3",
             'hashAlgo': hashAlgo,
             'cipher': 'AES256-GCM',
             'nonce': self.nonce
