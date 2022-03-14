@@ -1,7 +1,7 @@
 *Authors Note: The motivation and problems described in this document are entirely derived from my own experience, I'm fully aware that there are likely inaccuracies or flat out wrong assumptions and am more than happy to have this pointed out to me or discussed.  
 This is also the reason this document is written entirely from my own perspective.*
 
-*At the moment this document is incomplete*
+*At the moment this document is incomplete, more information along the same lines can be found in [user_stories.md](user_stories.md)*
 
 # Motivation
 The current way security disclosures are performed has some issues that I think are worth adressing.
